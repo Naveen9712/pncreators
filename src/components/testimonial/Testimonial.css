@@ -1,0 +1,4 @@
+.testimonial-section {
+  @apply py-20 bg-gradient-to-br from-blue-50 to-cyan-50;
+}
+

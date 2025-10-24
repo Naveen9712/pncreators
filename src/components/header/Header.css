@@ -1,0 +1,4 @@
+.header {
+  @apply bg-white shadow-sm sticky top-0 z-50;
+}
+

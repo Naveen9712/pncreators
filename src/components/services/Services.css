@@ -1,0 +1,4 @@
+.services-section {
+  @apply py-20 bg-gradient-to-br from-blue-50 to-purple-50;
+}
+

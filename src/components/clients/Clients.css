@@ -1,0 +1,4 @@
+.clients-section {
+  @apply py-16 bg-gradient-to-br from-purple-50 to-pink-50;
+}
+

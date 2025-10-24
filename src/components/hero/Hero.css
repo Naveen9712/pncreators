@@ -1,0 +1,4 @@
+.hero-section {
+  @apply bg-gradient-to-br from-blue-50 to-purple-50 py-20;
+}
+
