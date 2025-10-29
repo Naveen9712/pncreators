@@ -12,7 +12,7 @@ export default function Header() {
           <div className="text-2xl font-bold text-gray-800 font-poppins">
             PN<span className="text-purple-600">Creators</span>
           </div>
-          
+        
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-gray-500 hover:text-purple-600 transition">Home</a>
