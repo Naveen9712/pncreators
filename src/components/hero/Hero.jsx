@@ -15,12 +15,12 @@ export default function Hero() {
             <p className="text-gray-600 mb-8 text-lg">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <button className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-8 py-3 rounded-full hover:shadow-lg transition transform hover:scale-105">
+            <button className="animated-button">
               Getting Started
             </button>
           </div>
           <div className="md:w-1/2 flex justify-center">
-            <div className="relative">
+            <div className="hero-image-wrapper relative">
               <img src="https://separateweb.com/niwax--template/images/hero/hero-image.png" width="500" height="500" alt="Hero Image" className="object-cover" />
             </div>
           </div>
@@ -29,4 +29,3 @@ export default function Hero() {
     </section>
   );
 }
-

@@ -15,11 +15,11 @@ export default function Header() {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-gray-700 hover:text-purple-600 transition">HOME</a>
-            <a href="#about" className="text-gray-700 hover:text-purple-600 transition">ABOUT</a>
-            <a href="#services" className="text-gray-700 hover:text-purple-600 transition">SERVICES</a>
-            <a href="#portfolio" className="text-gray-700 hover:text-purple-600 transition">PORTFOLIO</a>
-            <a href="#contact" className="text-gray-700 hover:text-purple-600 transition">CONTACT</a>
+            <a href="#home" className="text-gray-500 hover:text-purple-600 transition">Home</a>
+            <a href="#about" className="text-gray-500 hover:text-purple-600 transition">About</a>
+            <a href="#services" className="text-gray-500 hover:text-purple-600 transition">Services</a>
+            <a href="#portfolio" className="text-gray-500 hover:text-purple-600 transition">Portfolio</a>
+            <a href="#contact" className="text-gray-500 hover:text-purple-600 transition">Contact</a>
           </div>
 
           <button className="hidden md:block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2 rounded-full hover:shadow-lg transition">
