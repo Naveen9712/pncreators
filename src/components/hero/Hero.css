@@ -48,9 +48,14 @@
 
 /* Floating animation for hero image */
 .hero-image-wrapper {
-  animation: float 6s ease-in-out infinite;
   filter: drop-shadow(0 10px 30px rgba(147, 51, 234, 0.2));
   position: relative;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.hero-image-wrapper:hover {
+  animation: float 2s ease-in-out infinite;
+  filter: drop-shadow(0 15px 40px rgba(147, 51, 234, 0.4));
 }
 
 @keyframes float {
