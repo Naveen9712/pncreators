@@ -4,11 +4,11 @@ import './Stats.css';
 
 export default function Stats() {
   const stats = [
-    { icon: <Users className="w-8 h-8" />, number: "15+", label: "Team Member" },
-    { icon: <Award className="w-8 h-8" />, number: "80+", label: "Winning Award" },
-    { icon: <Briefcase className="w-8 h-8" />, number: "450", label: "Complete Project" },
-    { icon: <MessageCircle className="w-8 h-8" />, number: "48k", label: "Client Review" },
-    { icon: <Globe className="w-8 h-8" />, number: "95k", label: "Facebook Follower" },
+    { icon: <Users className="w-8 h-8" />, number: "15+", label: "Team Members" },
+    { icon: <Award className="w-8 h-8" />, number: "80+", label: "Awards Won" },
+    { icon: <Briefcase className="w-8 h-8" />, number: "450+", label: "Completed Projects" },
+    { icon: <MessageCircle className="w-8 h-8" />, number: "48K", label: "Client Reviews" },
+    { icon: <Globe className="w-8 h-8" />, number: "95K", label: "Facebook Followers" },
     { icon: <Clock className="w-8 h-8" />, number: "24/7", label: "Support Available" }
   ];
 

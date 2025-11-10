@@ -25,8 +25,11 @@ export default function Domains() {
             <h2 className="text-4xl font-bold text-gray-800 mb-6">
               Helping<br />Businesses in All<br />Domains
             </h2>
-            <p className="text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <p className="text-gray-600 mb-4">
+              We help businesses grow across multiple industries with innovative design and technology solutions.
+            </p>
+            <p className="text-gray-600 font-semibold">
+              Domains We Serve:
             </p>
           </div>
           <div className="md:w-2/3">

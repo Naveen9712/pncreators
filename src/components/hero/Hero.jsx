@@ -13,7 +13,7 @@ export default function Hero() {
               Company
             </h1>
             <p className="text-gray-600 mb-8 text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              We craft beautiful, high-performing websites that help businesses grow online. Our team delivers custom design and development solutions that fit your goals, budget, and brand identity.
             </p>
             <button className="animated-button">
               Getting Started

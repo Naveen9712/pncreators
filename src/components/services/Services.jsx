@@ -6,22 +6,22 @@ export default function Services() {
     {
       icon: "🎨",
       title: "Logo & Branding Service",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+      description: "We craft unique, memorable brand identities that define your business and leave a lasting impression."
     },
     {
       icon: "🌐",
       title: "Website Design & Development",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+      description: "From landing pages to eCommerce websites, we design and develop responsive, SEO-optimized, and visually engaging web solutions."
     },
     {
       icon: "📱",
       title: "Mobile App Development",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+      description: "Build user-friendly and high-performing mobile apps that bring your ideas to life on Android and iOS."
     },
     {
       icon: "📊",
       title: "Digital Marketing Service",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+      description: "Boost your brand visibility with result-oriented digital marketing strategies — including SEO, social media, and paid campaigns."
     }
   ];
 
@@ -42,10 +42,10 @@ export default function Services() {
         </div>
         <div className="text-center mt-12">
           <p className="text-gray-700 mb-4">
-            I Have a <span className="font-bold">Dedicated Developer</span>
+            👉 Hire a <span className="font-bold">Dedicated Developer</span>
           </p>
           <button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-3 rounded-full hover:shadow-lg transition">
-            Hire Now
+            Hire a Dedicated Developer
           </button>
         </div>
       </div>

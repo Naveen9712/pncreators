@@ -8,7 +8,7 @@ export default function Newsletter() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">Get New Insights Weekly</h2>
           <p className="text-gray-600 mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+            Stay updated with the latest trends in web design, digital marketing, and branding. Subscribe to our newsletter and get creative inspiration delivered to your inbox.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <input 
