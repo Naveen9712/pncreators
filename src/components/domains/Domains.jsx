@@ -1,20 +1,34 @@
 import React from 'react';
+import { 
+  Briefcase, 
+  GraduationCap, 
+  Heart, 
+  UtensilsCrossed, 
+  Landmark, 
+  Home, 
+  Laptop, 
+  ShoppingBag, 
+  Zap, 
+  Palette, 
+  Radio, 
+  Plane 
+} from 'lucide-react';
 import './Domains.css';
 
 export default function Domains() {
   const domains = [
-    { icon: "💰", title: "Business", color: "bg-cyan-200" },
-    { icon: "📚", title: "Education", color: "bg-yellow-200" },
-    { icon: "🏥", title: "Hospital", color: "bg-green-200" },
-    { icon: "🍔", title: "Restaurant", color: "bg-orange-200" },
-    { icon: "🏛️", title: "Government", color: "bg-lime-300" },
-    { icon: "🏠", title: "Real Estate", color: "bg-pink-200" },
-    { icon: "💻", title: "Technology", color: "bg-purple-200" },
-    { icon: "🛍️", title: "E-Commerce", color: "bg-emerald-300" },
-    { icon: "⚡", title: "Energy", color: "bg-cyan-300" },
-    { icon: "🎨", title: "Art & Design", color: "bg-blue-200" },
-    { icon: "📱", title: "Telecom", color: "bg-amber-100" },
-    { icon: "✈️", title: "Tourism", color: "bg-teal-200" }
+    { icon: Briefcase, title: "Business", gradient: "from-cyan-400 to-cyan-600" },
+    { icon: GraduationCap, title: "Education", gradient: "from-yellow-400 to-amber-500" },
+    { icon: Heart, title: "Hospital", gradient: "from-green-400 to-emerald-600" },
+    { icon: UtensilsCrossed, title: "Restaurant", gradient: "from-orange-400 to-orange-600" },
+    { icon: Landmark, title: "Government", gradient: "from-lime-400 to-green-500" },
+    { icon: Home, title: "Real Estate", gradient: "from-pink-400 to-rose-500" },
+    { icon: Laptop, title: "Technology", gradient: "from-purple-400 to-purple-600" },
+    { icon: ShoppingBag, title: "E-Commerce", gradient: "from-emerald-400 to-teal-600" },
+    { icon: Zap, title: "Energy", gradient: "from-cyan-400 to-blue-500" },
+    { icon: Palette, title: "Art & Design", gradient: "from-blue-400 to-indigo-500" },
+    { icon: Radio, title: "Telecom", gradient: "from-amber-400 to-orange-400" },
+    { icon: Plane, title: "Tourism", gradient: "from-teal-400 to-cyan-500" }
   ];
 
   return (
@@ -34,12 +48,17 @@ export default function Domains() {
           </div>
           <div className="md:w-2/3 w-full">
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4">
-              {domains.map((domain, index) => (
-                <div key={index} className={`${domain.color} p-4 sm:p-6 rounded-lg text-center hover:shadow-lg transition transform hover:scale-105`}>
-                  <div className="text-3xl sm:text-4xl mb-2">{domain.icon}</div>
-                  <div className="font-semibold text-gray-800 text-xs sm:text-sm">{domain.title}</div>
-                </div>
-              ))}
+              {domains.map((domain, index) => {
+                const IconComponent = domain.icon;
+                return (
+                  <div key={index} className="domain-card bg-white p-4 sm:p-6 rounded-xl text-center hover:shadow-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1">
+                    <div className={`domain-icon-wrapper bg-gradient-to-br ${domain.gradient} mx-auto mb-3`}>
+                      <IconComponent className="domain-icon" size={24} strokeWidth={2.5} />
+                    </div>
+                    <div className="font-semibold text-gray-800 text-xs sm:text-sm">{domain.title}</div>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -47,4 +66,3 @@ export default function Domains() {
     </section>
   );
 }
-
