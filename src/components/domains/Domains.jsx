@@ -20,24 +20,24 @@ export default function Domains() {
   return (
     <section className="domains-section">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row gap-12 items-center">
-          <div className="md:w-1/3">
-            <h2 className="text-4xl font-bold text-gray-800 mb-6">
+        <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center">
+          <div className="md:w-1/3 w-full text-center md:text-left">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4 md:mb-6">
               Helping<br />Businesses in All<br />Domains
             </h2>
-            <p className="text-gray-600 mb-4">
+            <p className="text-gray-600 mb-3 md:mb-4 text-sm sm:text-base">
               We help businesses grow across multiple industries with innovative design and technology solutions.
             </p>
-            <p className="text-gray-600 font-semibold">
+            <p className="text-gray-600 font-semibold text-sm sm:text-base">
               Domains We Serve:
             </p>
           </div>
-          <div className="md:w-2/3">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="md:w-2/3 w-full">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4">
               {domains.map((domain, index) => (
-                <div key={index} className={`${domain.color} p-6 rounded-lg text-center hover:shadow-lg transition transform hover:scale-105`}>
-                  <div className="text-4xl mb-2">{domain.icon}</div>
-                  <div className="font-semibold text-gray-800 text-sm">{domain.title}</div>
+                <div key={index} className={`${domain.color} p-4 sm:p-6 rounded-lg text-center hover:shadow-lg transition transform hover:scale-105`}>
+                  <div className="text-3xl sm:text-4xl mb-2">{domain.icon}</div>
+                  <div className="font-semibold text-gray-800 text-xs sm:text-sm">{domain.title}</div>
                 </div>
               ))}
             </div>

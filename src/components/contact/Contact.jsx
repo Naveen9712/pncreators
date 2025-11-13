@@ -6,14 +6,14 @@ export default function Contact() {
     <section id="contact" className="contact-section">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <p className="text-purple-600 font-semibold mb-2">CONTACT WITH</p>
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">Have Questions? Write a Message</h2>
-            <p className="text-gray-600 mt-4">
+          <div className="text-center mb-8 md:mb-12">
+            <p className="text-purple-600 font-semibold mb-2 text-sm sm:text-base">CONTACT WITH</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-3 md:mb-4 px-4">Have Questions? Write a Message</h2>
+            <p className="text-gray-600 mt-4 text-sm sm:text-base px-4">
               We'd love to hear from you! Whether you need a new website, branding, or digital marketing help — drop us a message and we'll get back to you shortly.
             </p>
           </div>
-          <div className="bg-white p-8 rounded-lg shadow-lg">
+          <div className="bg-white p-6 sm:p-8 rounded-lg shadow-lg">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
               <input 
                 type="text" 
