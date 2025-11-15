@@ -40,7 +40,7 @@ export default function Services() {
           {services.map((service, index) => {
             const IconComponent = service.icon;
             return (
-              <div key={index} className="service-card bg-white p-6 sm:p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+              <div key={index} className="service-card bg-white p-6 sm:p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className={`icon-wrapper bg-gradient-to-br ${service.gradient} mb-4`}>
                   <IconComponent className="icon" size={32} strokeWidth={2} />
                 </div>
@@ -49,14 +49,6 @@ export default function Services() {
               </div>
             );
           })}
-        </div>
-        <div className="text-center mt-8 md:mt-12">
-          <p className="text-gray-700 mb-4 text-sm sm:text-base">
-            <span className="text-purple-500 font-bold">→</span> Hire a <span className="font-bold">Dedicated Developer</span>
-          </p>
-          <button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-full hover:shadow-lg transition text-sm sm:text-base">
-            Hire a Dedicated Developer
-          </button>
         </div>
       </div>
     </section>

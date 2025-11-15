@@ -34,7 +34,7 @@ export default function Portfolio() {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-3 md:mb-4">Portfolio Services</h2>
           <p className="text-base sm:text-lg text-gray-600 mb-4 md:mb-6 px-4">Affordable Professional Portfolios for Students & Job Seekers</p>
           <button className="bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 text-white px-4 sm:px-5 py-2 rounded-full text-sm sm:text-base font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-            Only ₹2,000 per person
+            Only ₹3,000 per person
           </button>
         </div>
         

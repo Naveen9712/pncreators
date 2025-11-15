@@ -30,6 +30,10 @@ export default function Footer() {
                 +91 9182289136
               </li>
               <li className="flex items-center justify-center sm:justify-start gap-2">
+                <Phone className="w-4 h-4 flex-shrink-0" />
+                +91 8074421006
+              </li>
+              <li className="flex items-center justify-center sm:justify-start gap-2">
                 <MapPin className="w-4 h-4 flex-shrink-0" />
                 <span className="text-center sm:text-left">1234 Blunder Street, City</span>
               </li>

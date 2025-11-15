@@ -1,0 +1,91 @@
+.technologies-section {
+  @apply py-16 md:py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50;
+  position: relative;
+  isolation: isolate;
+}
+
+/* Technology Card */
+.tech-card {
+  @apply relative flex flex-col items-center justify-center p-4 sm:p-6 rounded-xl;
+  @apply bg-white;
+  @apply transition-all duration-300 ease-out;
+  @apply cursor-pointer;
+  @apply border border-gray-100;
+}
+
+.tech-card:hover {
+  @apply bg-white;
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon Container */
+.icon-container {
+  @apply relative rounded-xl p-4 sm:p-5 mb-3 sm:mb-4;
+  @apply transition-all duration-300;
+  box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.2);
+}
+
+.tech-card:hover .icon-container {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px -6px rgba(0, 0, 0, 0.25);
+}
+
+/* Icon */
+.icon {
+  @apply transition-all duration-300;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.tech-card:hover .icon {
+  transform: scale(1.1);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+/* Technology Name */
+.tech-name {
+  @apply text-sm sm:text-base md:text-lg font-bold text-gray-800 text-center;
+  @apply transition-colors duration-300;
+}
+
+.tech-card:hover .tech-name {
+  @apply text-purple-600;
+}
+
+/* Call to Action Button */
+.cta-button {
+  @apply relative px-6 sm:px-8 md:px-10 py-3 sm:py-3.5 md:py-4;
+  @apply rounded-full text-white font-semibold text-sm sm:text-base md:text-lg;
+  @apply bg-gradient-to-r from-purple-500 to-pink-500;
+  @apply transition-all duration-300;
+  @apply overflow-hidden;
+  box-shadow: 0 4px 15px -4px rgba(168, 85, 247, 0.4);
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px -6px rgba(168, 85, 247, 0.5);
+}
+
+.cta-button:active {
+  transform: translateY(0);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .icon-container {
+    @apply p-3;
+  }
+  
+  .tech-card {
+    @apply p-3;
+  }
+}
+
+@media (max-width: 480px) {
+  .technologies-section::before,
+  .technologies-section::after {
+    width: 300px;
+    height: 300px;
+  }
+}

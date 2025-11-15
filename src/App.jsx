@@ -4,7 +4,7 @@ import Hero from './components/hero/Hero';
 import About from './components/about/About';
 import Services from './components/services/Services';
 import Portfolio from './components/portfolio/Portfolio';
-import Clients from './components/clients/Clients';
+import Technologies from './components/technologies/Technologies';
 import Domains from './components/domains/Domains';
 import Testimonial from './components/testimonial/Testimonial';
 import Contact from './components/contact/Contact';
@@ -19,7 +19,7 @@ function App() {
       <About />
       <Services />
       <Portfolio />
-      <Clients />
+      <Technologies />
       <Domains />
       <Testimonial />
       <Contact />
