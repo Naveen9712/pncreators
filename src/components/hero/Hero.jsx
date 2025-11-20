@@ -8,8 +8,8 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-3xl md:text-5xl font-semibold text-gray-800 mb-4 md:mb-6 leading-tight">
-              Creative Web<br />
-              Development<br />
+              Creative Web
+              Development
               Company
             </h1>
             <p className="text-gray-600 mb-6 md:mb-8 text-base md:text-lg">
